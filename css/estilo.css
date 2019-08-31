@@ -68,3 +68,17 @@
   .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #c0392b;
   }
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    }
+footer{
+  align-self: flex-end;
+  background-color: rgba(120, 120, 120, 0.5);
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+}
